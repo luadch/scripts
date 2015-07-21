@@ -1,0 +1,61 @@
+﻿return {
+
+    help_title = "noAdvertise",
+    help_usage = "[+!#]noad set checkMode|checkMain|ignoreBots|warnUser|sendToHubbot\nand:     [+!#]noad showf|showa|addf|adda|delf|dela <string>",
+    help_desc = "checks main/pm for advertising",
+
+    msg_denied = "You are not allowed to use this command.",
+    msg_usage_1 = "Usage: [+!#]noad set checkMode|checkMain|ignoreBots|warnUser|sendToHubbot",
+    msg_usage_2 = "Usage: [+!#]noad showf|showa|addf|adda|delf|dela <string>",
+    msg_prefix = "noAdvertise  |  ",
+    msg_main = " writes in main:  ",
+    msg_pm_1 = " writes to:  ",
+    msg_pm_2 = "  |  msg:  ",
+
+    msg_checkmode_1 = "noAdvertise  |  set check Mode: off",
+    msg_checkmode_2 = "noAdvertise  |  set check Mode: on",
+    msg_checkmain_1 = "noAdvertise  |  set check Main: off",
+    msg_checkmain_2 = "noAdvertise  |  set check Main: on",
+    msg_ignorebots_1 = "noAdvertise  |  set check Bots: off",
+    msg_ignorebots_2 = "noAdvertise  |  set check Bots: on",
+    msg_warnuser_1 = "noAdvertise  |  set warn User: off",
+    msg_warnuser_2 = "noAdvertise  |  set warn User: on",
+    msg_sendreport_1 = "noAdvertise  |  set report: OpChat",
+    msg_sendreport_2 = "noAdvertise  |  set report: HubBot",
+    msg_show_forbidden = "noAdvertise  |  forbidden strings:\n\n",
+    msg_add_forbidden_1 = "noAdvertise  |  forbidden string already exists: ",
+    msg_add_forbidden_2 = "noAdvertise  |  added forbidden string: ",
+    msg_del_forbidden_1 = "noAdvertise  |  forbidden string removed: ",
+    msg_del_forbidden_2 = "noAdvertise  |  forbidden string not found: ",
+    msg_show_allowed = "noAdvertise  |  allowed strings:\n\n",
+    msg_add_allowed_1 = "noAdvertise  |  allowed string already exists: ",
+    msg_add_allowed_2 = "noAdvertise  |  added allowed string: ",
+    msg_del_allowed_1 = "noAdvertise  |  allowed string removed: ",
+    msg_del_allowed_2 = "noAdvertise  |  allowed string not found: ",
+
+    ucmd_popup = "Note: no case sensitivity and whitespaces needed",
+
+    ucmd_menu_set_checkmode = { "noAdvertise", "set", "check Mode", "on\\off" },
+    ucmd_menu_set_checkmain = { "noAdvertise", "set", "check Main", "on\\off" },
+    ucmd_menu_set_ignorebots = { "noAdvertise", "set", "check Bots", "on\\off" },
+    ucmd_menu_set_warnuser = { "noAdvertise", "set", "warn User", "on\\off" },
+    ucmd_menu_set_sendtohubbot = { "noAdvertise", "set", "send report to", "Hubbot\\OpChat" },
+    ucmd_menu_show_forbidden = { "noAdvertise", "show", "forbidden" },
+    ucmd_menu_show_allowed = { "noAdvertise", "show", "allowed" },
+    ucmd_menu_add_forbidden = { "noAdvertise", "add", "forbidden" },
+    ucmd_menu_add_allowed = { "noAdvertise", "add", "allowed" },
+    ucmd_menu_del_forbidden = { "noAdvertise", "del", "forbidden" },
+    ucmd_menu_del_allowed = { "noAdvertise", "del", "allowed" },
+
+    msg_warn = [[ 
+
+
+                        ========== ADVERTISE DETECTION ========================================
+
+                                                          Warning: Advertising is not allowed in this hub!
+
+                        ======================================== ADVERTISE DETECTION ==========
+
+  ]],
+
+}

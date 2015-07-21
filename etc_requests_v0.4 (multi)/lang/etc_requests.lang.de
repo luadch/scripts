@@ -1,0 +1,38 @@
+﻿return {
+
+help_title = "Requests",
+help_usage = "[+!#]request show / [+!#]request showall / [+!#]request add <relname> / [+!#]request del <relname> / [+!#]request delall / [+!#]filled show / [+!#]filled add <relname>",
+help_desc = "Releases als Request eintragen",
+
+msg_denied = "Du bist nicht befugt diesen Befehl zu nutzen!",
+
+msg_etc_01 = "     [ von ]-> ",
+msg_etc_02 = "Release requested von:   ",
+msg_etc_03 = "Release Request filled von:   ",
+msg_etc_04 = "Fehler: Das Release wurde bereits in der Datenbank eingetragen.",
+msg_etc_05 = "Fehler: Das Release wurde nicht gefunden.",
+msg_etc_06 = "Fehler: Das Release wurde bereits als FILLED in der Datenbank eingetragen.",
+msg_etc_07 = "Fehler: Request: Unbekannter Parameter [2]",
+msg_etc_08 = "Fehler: Filled: Unbekannter Parameter [2]",
+msg_etc_09 = "Folgendes Release wurde aus der Datenbank gelöscht:   ",
+msg_etc_10 = "Alle Releases wurden aus der Datenbank gelöscht.",
+msg_etc_11 = "Fehler: Es wurden keine Releases in der Datenbank gefunden.",
+msg_etc_12 = "Alle Releases mit dem Status REQUEST wurden gelöscht.",
+msg_etc_13 = "Alle Releases mit dem Status FILLED wurden gelöscht.",
+msg_etc_14 = "Fehler: In deiner Eingabe befinden sich Leerstellen, bitte überprüfen!",
+msg_etc_15 = "REQUEST",
+msg_etc_16 = "FILLED    ",
+
+ucmd_menu_request_add = { "Requests", "eintragen", "request" },
+ucmd_menu_filled_add = { "Requests", "eintragen", "filled" },
+ucmd_menu_request_show = { "Requests", "anzeigen", "Alle Requests anzeigen" },
+ucmd_menu_filled_show = { "Requests", "anzeigen", "Alle Filled anzeigen" },
+ucmd_menu_request_showall = { "Requests", "anzeigen", "Alle anzeigen" },
+ucmd_menu_del_request = { "Requests", "löschen", "Einen löschen" },
+ucmd_menu_del_requests_all_r = { "Requests", "löschen", "Alle Requests löschen" },
+ucmd_menu_del_requests_all_f = { "Requests", "löschen", "Alle Filled löschen" },
+ucmd_menu_del_requests_all = { "Requests", "löschen", "Alle löschen" },
+
+ucmd_relname = "Releasename",
+
+}

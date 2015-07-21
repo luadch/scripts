@@ -1,0 +1,11 @@
+﻿return {
+
+    help_title = "userdb",
+    help_usage = "[+!#]userdb",
+    help_desc = "sendet user.tbl",
+
+    ucmd_menu =  { "Hub", "Zeige userdb" },
+
+    msg_denied = "Du bist nicht berechtigt diesen Befehl zu nutzen!",
+
+}

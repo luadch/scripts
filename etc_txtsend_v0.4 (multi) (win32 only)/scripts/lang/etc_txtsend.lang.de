@@ -1,0 +1,15 @@
+﻿return {
+
+    help_title = "txtsend",
+    help_usage = "[+!#]txtsend <textfile>",
+    help_desc = "Das Script sendet den Inhalt einer Textdatei in den Main oder als PM",
+
+    msg_denied = "Du bist nicht befugt diesen Befehl zu nutzen.",
+    msg_notfound = "Die Folgende Textdatei wurde nicht gefunden: ",
+    msg_usage = "Gebrauch: [+!#]txtsend <textfile>",
+
+    ucmd_menu_01 = "User",
+    ucmd_menu_02 = "Messages",
+    ucmd_menu_03 = "sende Textfile",
+
+}

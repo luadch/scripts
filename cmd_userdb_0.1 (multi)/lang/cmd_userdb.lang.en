@@ -1,0 +1,11 @@
+﻿return {
+
+    help_title = "userdb",
+    help_usage = "[+!#]userdb",
+    help_desc = "sends user.tbl in pm",
+
+    ucmd_menu =  { "Hub", "Show userdb" },
+
+    msg_denied = "You are not allowed to use this command.",
+
+}

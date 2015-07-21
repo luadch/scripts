@@ -1,0 +1,10 @@
+return {
+["Porno"]="Porno",
+["Sonstiges"]="Sonstiges",
+["Reportage"]="Reportage",
+["Spiel"]="Spiel",
+["Filme"]="Filme",
+["Audio"]="Audio",
+["Software"]="Software",
+["Serie"]="Serie",
+}

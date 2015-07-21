@@ -1,0 +1,11 @@
+﻿return {
+
+    help_title = "talk",
+    help_usage = "[+!#]talk <msg>",
+    help_desc = "Im Main chatten ohne Nick",
+
+    msg_denied = "Du bist nicht berechtigt diesen Befehl zu nutzen!",
+    ucmd_menu = {"User", "Talk"},
+    ucmd_what = "Nachricht:",
+
+}

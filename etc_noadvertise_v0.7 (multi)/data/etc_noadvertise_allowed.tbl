@@ -1,0 +1,11 @@
+local allowedStrings_tbl
+
+allowedStrings_tbl = {
+
+    [ 1 ] = "adc://yourhubaddy:port",
+    [ 2 ] = "adcs://yourhubaddy:port",
+    [ 3 ] = "http://yourwebsite.com",
+
+}
+
+return allowedStrings_tbl

@@ -1,0 +1,26 @@
+﻿return {
+
+	help_title = "Wish_list",
+	help_usage = "[+!#]wish [add|show|delete]",
+	help_desc =  "Allows you to [ add a request | show all requests | delete a request ].",
+	-- error msgs --
+	help_err = "You are not allowed to use this command.",
+	help_err_wrong_id = "\n\t\t You have entered one or more wrong parameters, try one of those: \n\n\t\t %s \n\t\t %s ",
+	noitem = "No request entered",
+	nonumber = "No number entred",
+	-- msgs --
+	addrequestmsg = "%s was added to wishlist",
+	showrequestmsg = "\nThe Requests: ",
+	deletemsg = "%s was deletet from wishlist",
+
+
+	-- ucmd menu --
+	ucmd_menu_add = { "Generel", "Whishes", "add" },
+	ucmd_menu_show = { "Generel", "Whishes", "show" },
+	ucmd_menu_delete = { "Generel", "Whishes", "delete" },
+	ucmd_what = "Enter your request:",
+	ucmd_which = "Enter the request number:",
+
+	by = "added by"
+,
+}
