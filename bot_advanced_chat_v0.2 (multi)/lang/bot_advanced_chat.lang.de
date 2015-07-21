@@ -1,0 +1,52 @@
+﻿return {
+
+help_title = "AdvancedChat",
+help_usage = "[+!#]advancedchat add|del <nick>  /  [+!#]advancedchat members  / Im Chat: [+!#]members|[+!#]history|[+!#]historyall",
+help_desc = "Chat mit erweiterten Funktionen",
+
+ucmd_menu_ct1_del_1 = "User",
+ucmd_menu_ct1_del_2 = "Messages",
+ucmd_menu_ct1_del_3 = "Chats",
+ucmd_menu_ct1_del_4 = "[CHAT]AdvancedChat",
+ucmd_menu_ct1_del_5 = "entfernen",
+
+ucmd_menu_ct1_members = { "User", "Messages", "Chats", "[CHAT]AdvancedChat", "zeige alle Members" },
+ucmd_menu_ct1_history = { "User", "Messages", "Chats", "[CHAT]AdvancedChat", "zeige Chat History (die letzten)" },
+ucmd_menu_ct1_historyall = { "User", "Messages", "Chats", "[CHAT]AdvancedChat", "zeige Chat History (alle)" },
+
+ucmd_menu_ct2_add = { "Chats", "[CHAT]AdvancedChat", "hinzufügen" },
+ucmd_menu_ct2_del = { "Chats", "[CHAT]AdvancedChat", "entfernen" },
+
+msg_denied = "Du bist nicht befugt diesen Befehl zu nutzen!",
+msg_denied_2 = "Du bist nicht befugt diesen Chat zu nutzen!",
+msg_usage = "Gebrauch: [+!#]advancedchat add|del <nick>  /  [+!#]advancedchat members",
+msg_new_member = "Neues Chat Member: ",
+msg_welcome = "Willkommen ",
+msg_already = "Der folgende User ist bereits Member: ",
+msg_isbot = "Der User ist ein Bot",
+msg_del = "Chat Member entfernt: ",
+msg_nomember = "Der folgende User ist kein Member: ",
+msg_intro = "\t\t\t\t  Die letzten %s Posts aus dem Chat:",
+
+msg_out = [[
+
+
+===  MEMBERS =========================
+
+%s
+
+========================= MEMBERS ===
+  ]],
+  
+msg_history = [[
+
+
+========== CHATLOG ==============================================================================
+%s
+
+%s
+
+============================================================================== CHATLOG ==========
+  ]],
+
+}
