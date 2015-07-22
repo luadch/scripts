@@ -23,6 +23,9 @@
 
 ]]
 
+local scriptname = "ptx_tagCheck"
+local scriptversion = "0.1"
+
 --Script configuration
 local tSettings = {
 -- Name for bot
@@ -246,3 +249,5 @@ hub.setlistener( "onLogin", { },
         return nil
     end
 )
+
+hub.debug( "** Loaded " .. scriptname .. " " .. scriptversion .. " **" )
