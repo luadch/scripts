@@ -19,6 +19,9 @@
 -- Converted to luadch by Jerker/Kungen
 -- Removed right click by Jerker/Kungen
 
+local scriptname = "ptx_rotatingtopic"
+local scriptversion = "0.1"
+
 local BotName	 = "[--=Mr.Fun=--]"
 local hubname	 = "adcs://your.hubaddress.org:port"
 
@@ -376,3 +379,4 @@ hub.setlistener( "onTimer", { },
 	end
 )
 
+hub.debug( "** Loaded " .. scriptname .. " " .. scriptversion .. ".lua **" )
