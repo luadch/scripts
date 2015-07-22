@@ -1,0 +1,35 @@
+﻿return {
+
+help_title = "AdvancedChat",
+help_usage = "[+!#]advancedchat add|del <nick>  /  [+!#]advancedchat members  / Im Chat: [+!#]members",
+help_desc = "Chat with advanced features",
+
+ucmd_menu_ct1_del_1 = "User",
+ucmd_menu_ct1_del_2 = "Messages",
+ucmd_menu_ct1_del_3 = "Chats",
+ucmd_menu_ct1_del_4 = "remove",
+ucmd_menu_ct1_show = { "User", "Messages", "Chats", "[CHAT]AdvancedChat", "show all members" },
+ucmd_menu_ct2_add = { "Chats", "[CHAT]AdvancedChat", "add" },
+ucmd_menu_ct2_del = { "Chats", "[CHAT]AdvancedChat", "remove" },
+ucmd_menu_ct2_show = { "Chats", "[CHAT]AdvancedChat", "show all members" },
+
+msg_denied = "You are not allowed to use this command!",
+msg_denied_2 = "You are not allowed to use this chat!",
+msg_usage = "Usage: [+!#]advancedchat add|del <nick>  /  [+!#]advancedchat members",
+msg_new_member = "The following user was added as member: ",
+msg_welcome = "Welcome ",
+msg_already = "The following user is already a member: ",
+msg_isbot = "User is a bot",
+msg_del = "The followig user is no longer a member: ",
+msg_nomember = "The following user is not a member: ",
+msg_out = [[
+
+
+===  MEMBERS =========================
+
+%s
+
+========================= MEMBERS ===
+  ]],
+
+}

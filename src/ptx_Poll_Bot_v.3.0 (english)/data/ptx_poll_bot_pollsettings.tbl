@@ -1,0 +1,8 @@
+local PollSettings
+
+PollSettings = {
+
+
+}
+
+return PollSettings
