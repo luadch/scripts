@@ -1,8 +1,0 @@
-local PollVotes
-
-PollVotes = {
-
-
-}
-
-return PollVotes

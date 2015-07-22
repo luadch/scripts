@@ -1,8 +1,0 @@
-local releases_tbl
-
-releases_tbl = {
-
-
-}
-
-return releases_tbl
