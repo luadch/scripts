@@ -1,0 +1,18 @@
+﻿return {
+
+    help_title = "Banner",
+    help_usage = "[+!#]banner [show|set_msg <text>|set_time <time>]",
+    help_desc = "show Zeigt den Banner | set_msg <text> Setzt <text> als Bannertext | set_time <time> Setzt <time> als Intervall ",
+
+    msg_denied = "Du bist nicht befugt diesen Befehl zu nutzen.",
+    msg_usage = "Benutzung: [+!#]banner show oder [+!#]banner set_msg <text> oder [+!#]banner set_time <time>",
+    msg_time = "Der Banner wird alle %s Stunden gesendet.",
+
+    ucmd_menu_show = { "Hub", "etc", "Banner", "Zeige Banner" },
+    ucmd_menu_set_msg = { "Hub", "etc", "Banner", "Setzte Banner Nachricht" },
+    ucmd_menu_set_time = { "Hub", "etc", "Banner", "Setzte Intervall" },
+
+    ucmd_popup1 = "Gib den neuen Bannertext ein.",
+    ucmd_popup2 = "Gib das neue Zeitintervall ein (in Stunden).",
+
+}
