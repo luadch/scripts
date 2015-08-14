@@ -1,0 +1,23 @@
+﻿return {
+
+    help_title = "usr_nick_prefix_mod.lua",
+    help_usage = "[+!#]nickprefix add <NICK> <PREFIX>  /  [+!#]nickprefix del <NICK>",
+    help_desc = "Das skript fügt dem Nicknamen einen Prefix hinzu",
+
+    msg_denied = "Du bist nicht befugt diesen Befehl zu nutzen.",
+    msg_god = "Du bist nicht befugt bei diesem User ein Nick Prefix hinzuzufügen, zu ändern oder zu löschen.",
+    msg_isbot = "User ist ein bot.",
+    msg_notonline = "User ist offline.",
+    msg_notfound = "Kein Prefix gefunden.",
+    msg_forbidden = "Das Prefix enthält verbotene Zeichen oder Leerstellen.",
+    msg_usage = "Gebrauch: [+!#]nickprefix add <NICK> <PREFIX>  /  [+!#]nickprefix del <NICK>",
+
+    msg_prefix_add = "%s  fügt dem folgendem User ein Nick Prefix hinzu: %s  |  Prefix: %s",
+    msg_prefix_change = "%s  ändert das Nick Prefix von folgendem User: %s  | Neues Prefix: %s",
+    msg_prefix_remove = "%s  entfernt das Nick Prefix von folgendem User: %s",
+
+    ucmd_menu_ct2_1 = { "Nick Prefix", "hinzufügen//ändern" },
+    ucmd_menu_ct2_2 = { "Nick Prefix", "entfernen" },
+    ucmd_prefix = "Neues Nick Prefix:",
+
+}
