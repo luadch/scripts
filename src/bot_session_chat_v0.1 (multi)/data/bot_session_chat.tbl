@@ -1,9 +1,0 @@
-local sessions_tbl
-
-sessions_tbl = {
-
-
-
-}
-
-return sessions_tbl
