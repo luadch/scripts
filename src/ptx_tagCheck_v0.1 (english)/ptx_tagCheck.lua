@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	TagCheck 2.01 LUA 5.1x [Strict] [API 2]
 
@@ -40,6 +40,7 @@ Profiles = {
 	[ 30 ] = false,   --"VIP"
 	[ 40 ] = false,   --"SVIP"
 	[ 50 ] = false,   --"SERVER"
+	[ 55 ] = false,   --"SBOT"
 	[ 60 ] = false,  --"OPERATOR"
 	[ 70 ] = false,  --"SUPERVISOR"
 	[ 80 ] = false,  --"ADMIN"
@@ -96,7 +97,7 @@ local hub_escapeto = hub.escapeto
 local hub_escapefrom = hub.escapefrom
 
 local bans_path = "scripts/cmd_ban/bans.tbl"
-local opchat = hub.import "[-SPR-]OpChat"
+local opchat = hub.import "bot_opchat"
 local bans
 local bans_path
 
