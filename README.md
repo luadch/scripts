@@ -1,10 +1,10 @@
 #Additional Scripts for Luadch
 
-#####bot_advanced_chat (multi)
+#####[bot_advanced_chat](https://github.com/luadch/scripts/tree/master/zip) (multi)
  - this script regs an advanced chat with chathistory
  - it exports also a module to access the advanced chat from other scripts
 
-#####cmd_mainclear (german)
+#####[cmd_mainclear](https://github.com/luadch/scripts/tree/master/zip) (german)
 - sends a few empty lines to mainchat and seems to clear it
 
 #####etc_banner_mod.lua (multi3)
