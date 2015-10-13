@@ -7,7 +7,7 @@
 #####cmd_mainclear (german)
 - sends a few empty lines to mainchat and seems to clear it
 
-#####etc_banner_mod.lua
+#####etc_banner_mod.lua (multi3)
 - this script sends a banner in regular intervals to mainchat
 - message and timeinterval are configurable via ucmd
 - based on etc_banner.lua v0.09 of luadch
