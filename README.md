@@ -66,7 +66,7 @@
 #####ptx_rotatingtopic (english)
 - ???
 
-#####ptx_tagcheck (multi3)
+#####ptx_tagcheck (multi3) (only for Luadch 2.15 and higher)
 - checks min/max slots and max hubs for specified reg prefix tags
 
 #####ptx_tophubbers (english)
