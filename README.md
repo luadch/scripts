@@ -64,12 +64,12 @@
 - release bot
 
 #####ptx_rotatingtopic (english)
-- ???
+- this script will rotate the topic
 
 #####ptx_tagcheck (multi3) (only for Luadch 2.15 and higher)
 - checks min/max slots and max hubs for specified reg prefix tags
 
-#####ptx_tophubbers (english)
+#####ptx_tophubbers (german)
 - tophubbers
 
 #####usr_nick_prefix_mod (multi3)
