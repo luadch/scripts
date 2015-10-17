@@ -43,7 +43,7 @@
 - add releases to request database
 
 #####etc_sslonly (german)
-- SSL/TLS Checker, um zu gewährleisten das User mit deaktivierter SSL/TLS-Funktion disconnected werden
+- SSL/TLS Checker, to prevent users with a non-ssl connection (users will be disconnected)
 
 #####etc_txtsend (multi) (win32 only)
 - this script sends the complete content of a textfile to Main or PM
