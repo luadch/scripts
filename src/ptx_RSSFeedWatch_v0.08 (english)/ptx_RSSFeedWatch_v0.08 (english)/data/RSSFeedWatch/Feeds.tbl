@@ -1,0 +1,43 @@
+local Feeds
+
+Feeds = {
+
+    [ 1 ] = {
+
+        [ "force" ] = false,
+        [ "tag" ] = "BBC",
+        [ "url" ] = "http://feeds.bbci.co.uk/news/world/europe/rss.xml",
+
+    },
+    [ 2 ] = {
+
+        [ "force" ] = false,
+        [ "tag" ] = "CNN",
+        [ "url" ] = "http://rss.cnn.com/rss/edition_world.rss",
+
+    },
+    [ 3 ] = {
+
+        [ "force" ] = false,
+        [ "tag" ] = "YLE",
+        [ "url" ] = "http://yle.fi/uutiset/rss/uutiset.rss",
+
+    },
+    [ 4 ] = {
+
+        [ "force" ] = false,
+        [ "tag" ] = "NYTimes",
+        [ "url" ] = "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+
+    },
+    [ 5 ] = {
+
+        [ "force" ] = false,
+        [ "tag" ] = "Luadch",
+        [ "url" ] = "https://github.com/luadch/luadch/releases.atom",
+
+    },
+
+}
+
+return Feeds
