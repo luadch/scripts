@@ -1,0 +1,18 @@
+local tSettings
+
+tSettings = {
+
+    [ "ForceFeedPM" ] = false,
+    [ "GetFeedAtStart" ] = true,
+    [ "MaxCache" ] = 5,
+    [ "MaxFeeds" ] = 5,
+    [ "MaxWidth" ] = 120,
+    [ "Refresh" ] = 10,
+    [ "Simple" ] = false,
+    [ "TagFilter" ] = true,
+    [ "allFeedsAtOnce" ] = false,
+    [ "msgToPM" ] = true,
+
+}
+
+return tSettings
