@@ -18,7 +18,7 @@
 				* And more...
 			- Checking http response code, 200 =  ok
 			- Commands available from PM to bot
-			Thanks to Kungen, Sopor and Pulsar
+			Thanks to Kungen, Sopor and pulsar
 
 		v0.08: by Jerker
 			- Fixed a problem with character entities (&#nnn;)
