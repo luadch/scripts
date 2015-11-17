@@ -1,0 +1,19 @@
+﻿return {
+
+msg_years = " Jahre, ",
+msg_days = " Tage, ",
+msg_hours = " Stunden, ",
+msg_minutes = " Minuten, ",
+msg_seconds = " Sekunden",
+
+msg_line = "Verbleibende Zeit bis %s: %s",
+msg_out = [[
+
+
+=== Event Announcer ====================================================
+
+%s
+==================================================== Event Announcer ===
+  ]],
+
+}
