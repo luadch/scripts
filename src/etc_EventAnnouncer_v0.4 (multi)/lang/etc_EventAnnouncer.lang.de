@@ -1,0 +1,20 @@
+﻿return {
+
+msg_days = " Tage, ",
+msg_hours = " Stunden, ",
+msg_minutes = " Minuten, ",
+msg_seconds = " Sekunden",
+
+msg_line = "\n\t%s:\n\t%s\n",
+
+msg_out = [[
+
+
+=== Event Announcer ====================================
+
+        Verbleibende Zeit bis:
+%s
+==================================== Event Announcer ===
+  ]],
+
+}
