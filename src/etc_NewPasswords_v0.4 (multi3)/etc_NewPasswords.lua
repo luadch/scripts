@@ -165,7 +165,7 @@ hub.setlistener( "onLogin", {},
                         if target_msg_main then target:reply( target_msg, hub_getbot ) end
                         if target_msg_pm then target:reply( target_msg, hub_getbot, hub_getbot ) end
                         --// disconnect target
-                        target:kill( "ISTA 231 " .. hub_escapeto( msg_disconnect ) .. "\n", "noreconnect" )
+                        target:kill( "ISTA 231 " .. hub_escapeto( msg_disconnect ) .. "\n", "TL-1" )
                         --// send report msg
                         local report_msg = utf_format( msg_report, target_nick )
                         report.send( report_activate, report_hubbot, report_opchat, llevel, report_msg )
