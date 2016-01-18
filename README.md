@@ -10,6 +10,9 @@
 #####[etc_EventAnnouncer](https://github.com/luadch/scripts/tree/master/zip) (multi)
 - announces events and their remaining time to a predefined rotation time
 
+#####[etc_NewPasswords](https://github.com/luadch/scripts/tree/master/zip) (multi3)
+- generate a new password for the user on login
+
 #####[etc_banner_mod](https://github.com/luadch/scripts/tree/master/zip) (multi3)
 - this script sends a banner in regular intervals to mainchat
 - message and timeinterval are configurable via ucmd
