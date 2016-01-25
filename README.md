@@ -42,6 +42,11 @@
 #####[etc_noadvertise](https://github.com/luadch/scripts/tree/master/zip) (multi)
 - checks chat in main/pm
 
+#####[etc_onlinecounter](https://github.com/luadch/scripts/tree/master/zip) (english)
+- Keeps track of online time
+- Blocks users from search and download if requirements are not met
+
+
 #####[etc_openhubs_announcer](https://github.com/luadch/scripts/tree/master/zip) (german)
 - checks if the users are connected to public hubs
 
