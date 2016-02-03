@@ -1,0 +1,59 @@
+return {
+
+["Movies_SD"] = "Movies_SD",
+["Movies_DVD"] = "Movies_DVD",
+["Movies_720p"] = "Movies_720p",
+["Movies_1080p"] = "Movies_1080p",
+["Movies_4k"] = "Movies_4k",
+["Movies_COMPLETE.BLURAY"] = "Movies_COMPLETE.BLURAY",
+
+["TV_SD"] = "TV_SD",
+["TV_DVD"] = "TV_DVD",
+["TV_720p"] = "TV_720p",
+["TV_1080p"] = "TV_1080p",
+["TV_4k"] = "TV_4k",
+["TV_COMPLETE.BLURAY"] = "TV_COMPLETE.BLURAY",
+
+["Dokus_SD"] = "Dokus_SD",
+["Dokus_DVD"] = "Dokus_DVD",
+["Dokus_720p"] = "Dokus_720p",
+["Dokus_1080p"] = "Dokus_1080p",
+["Dokus_4k"] = "Dokus_4k",
+["Dokus_COMPLETE.BLURAY"] = "Dokus_COMPLETE.BLURAY",
+
+["Music_MP3"] = "Music_MP3",
+["Music_FLAC"] = "Music_FLAC",
+["Music_MViD"] = "Music_MViD",
+["Music_MDVDR"] = "Music_MDVDR",
+["Music_MBluRay_720p"] = "Music_MBluRay_720p",
+["Music_MBluRay_1080p"] = "Music_MBluRay_1080p",
+["Music_MBluRay_COMPLETE.BLURAY"] = "Music_MBluRay_COMPLETE.BLURAY",
+["Music_AUDiOBOOKS"] = "Music_AUDiOBOOKS",
+
+["Software_PC"] = "Software_PC",
+["Software_Linux"] = "Software_Linux",
+["Software_ANDROiD"] = "Software_ANDROiD",
+["Software_MacOSX"] = "Software_MacOSX",
+["Software_iOS"] = "Software_iOS",
+
+["Games_PC"] = "Games_PC",
+["Games_PS2"] = "Games_PS2",
+["Games_PS3"] = "Games_PS3",
+["Games_PS4"] = "Games_PS4",
+["Games_PSP"] = "Games_PSP",
+["Games_Wii"] = "Games_Wii",
+["Games_NDS"] = "Games_NDS",
+["Games_XBOX"] = "Games_XBOX",
+["Games_XBOX360"] = "Games_XBOX360",
+["Games_XBOXONE"] = "Games_XBOXONE",
+
+["eBooks"] = "eBooks",
+
+["XXX_SD"] = "XXX_SD",
+["XXX_DVD"] = "XXX_DVD",
+["XXX_720p"] = "XXX_720p",
+["XXX_1080p"] = "XXX_1080p",
+["XXX_4k"] = "XXX_4k",
+["XXX_COMPLETE.BLURAY"] = "XXX_COMPLETE.BLURAY",
+
+}
