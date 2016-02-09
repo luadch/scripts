@@ -130,8 +130,8 @@ msg_help = [[
     [+!#]topadders
     [+!#]relhelp
     [+!#]announcerel <REAL-DUMP-NICKNAME> <KATEGORIE> <RELEASENAME>
-	[+!#]reloff
-	[+!#]relon
+    [+!#]reloff
+    [+!#]relon
 
 =============================================================================
   ]],

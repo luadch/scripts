@@ -329,17 +329,17 @@ local msg_help = lang.msg_help or [[
 
 =============================================================================
 
-	[+!#]addrel <CATEGORY> <RELEASENAME>
-	[+!#]releases <CATEGORY>
-	[+!#]delrel <RELEASE-ID>
-	[+!#]reloadrel
-	[+!#]searchrel <SEARCH-STRING>
-	[+!#]prunerel [<MAX-RELEASE-AGE>]
-	[+!#]topadders
-	[+!#]relhelp
-	[+!#]announcerel <REAL-DUMP-NICKNAME> <CATEGORY> <RELEASENAME>
-	[+!#]reloff
-	[+!#]relon
+    [+!#]addrel <CATEGORY> <RELEASENAME>
+    [+!#]releases <CATEGORY>
+    [+!#]delrel <RELEASE-ID>
+    [+!#]reloadrel
+    [+!#]searchrel <SEARCH-STRING>
+    [+!#]prunerel [<MAX-RELEASE-AGE>]
+    [+!#]topadders
+    [+!#]relhelp
+    [+!#]announcerel <REAL-DUMP-NICKNAME> <CATEGORY> <RELEASENAME>
+    [+!#]reloff
+    [+!#]relon
 
 =============================================================================
   ]]

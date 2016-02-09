@@ -130,8 +130,8 @@ msg_help = [[
     [+!#]topadders
     [+!#]relhelp
     [+!#]announcerel <RIKTIGA-DUMP-ANVÄNDARNAMNET> <KATEGORI> <RELEASE-NAMN>
-	[+!#]reloff
-	[+!#]relon
+    [+!#]reloff
+    [+!#]relon
 
 =============================================================================
   ]],
