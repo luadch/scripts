@@ -85,3 +85,7 @@
 
 #####[usr_nick_prefix_mod](https://github.com/luadch/scripts/tree/master/zip) (multi3)
 - this script adds a prefix to the nick of a user
+
+#####[usr_speedinfo](https://github.com/luadch/scripts/tree/master/zip) (english)
+- Above command will permanently change the email address of the user to the given connection speed info.
+- Instead of the email address, one can use any other field of the INF. This is controlled by the variable "field".
