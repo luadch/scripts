@@ -86,7 +86,8 @@ local hook_1 = function( user )
     if user:isregged( ) then
         local inf = user:inf( )
         local value = inf:getnp( field )
-        local speed = hub.escapeto( user_tbl[ user:firstnick() ] ) or value or ""
+        local new_value = user_tbl[ user:firstnick() ] or value
+        local speed = hub.escapeto( new_value )
         inf:setnp( field, speed )
     end
     return nil
@@ -94,9 +95,10 @@ end
 
 local hook_2 = function( user, cmd )
     local value = cmd:getnp( field )
+    local new_value = user_tbl[ user:firstnick() ] or value
     if value then
         if user:isregged( ) then
-            local speed = hub.escapeto( user_tbl[ user:firstnick() ] ) or value
+            local speed = hub.escapeto( new_value )
             cmd:setnp( field, speed )
         end
     end
