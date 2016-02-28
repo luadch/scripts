@@ -9,7 +9,7 @@
     - Instead of the Email, one can use any other field of the INF. This is controlled by the variable "field".
 
     v0.03: by pulsar
-        - small fix in onbmsg func
+        - small fix in onbmsg, hook_1, hook_2 func
 
     v0.02: by pulsar
         - added own script database
@@ -86,7 +86,7 @@ local hook_1 = function( user )
     if user:isregged( ) then
         local inf = user:inf( )
         local value = inf:getnp( field )
-        local speed = user_tbl[ user:firstnick() ] or value or ""
+        local speed = hub.escapeto( user_tbl[ user:firstnick() ] ) or value or ""
         inf:setnp( field, speed )
     end
     return nil
@@ -96,7 +96,7 @@ local hook_2 = function( user, cmd )
     local value = cmd:getnp( field )
     if value then
         if user:isregged( ) then
-            local speed = user_tbl[ user:firstnick() ] or value
+            local speed = hub.escapeto( user_tbl[ user:firstnick() ] ) or value
             cmd:setnp( field, speed )
         end
     end
