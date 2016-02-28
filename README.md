@@ -46,8 +46,7 @@
 - Keeps track of online time
 - Blocks users from search and download if requirements are not met
 
-
-#####[etc_openhubs_announcer](https://github.com/luadch/scripts/tree/master/zip) (german)
+#####[etc_openhubs_announcer](https://github.com/luadch/scripts/tree/master/zip) (german) (already included into Luadch)
 - checks if the users are connected to public hubs
 
 #####[etc_requests](https://github.com/luadch/scripts/tree/master/zip) (multi)
