@@ -1,0 +1,23 @@
+﻿return {
+
+    help_title = "usr_nick_prefix_mod.lua",
+    help_usage = "[+!#]nickprefix add <NICK> <PREFIX>  /  [+!#]nickprefix del <NICK>",
+    help_desc = "This script adds a prefix to the nick of a user",
+
+    msg_denied = "You are not allowed to use this command.",
+    msg_god = "You are not allowed to add/change the nick prefix of this user.",
+    msg_isbot = "User is a bot.",
+    msg_notonline = "User is offline.",
+    msg_notfound = "No prefix found.",
+    msg_forbidden = "The prefix includes forbidden characters or whitespaces.",
+    msg_usage = "Usage: [+!#]nickprefix add <NICK> <PREFIX>  /  [+!#]nickprefix del <NICK>",
+
+    msg_prefix_add = "%s  added the nick prefix on user: %s  prefix: %s",
+    msg_prefix_change = "%s  changed the nick prefix on user: %s  new prefix: %s",
+    msg_prefix_remove = "%s  removed the nick prefix on user: %s",
+
+    ucmd_menu_ct2_1 = { "Nick Prefix", "add//change" },
+    ucmd_menu_ct2_2 = { "Nick Prefix", "remove" },
+    ucmd_prefix = "New nick prefix:",
+
+}
