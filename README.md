@@ -74,7 +74,7 @@
 - release bot
 
 #####[ptx_rotatingtopic](https://github.com/luadch/scripts/tree/master/zip) (english)
-- this script will rotate the topic
+- this script will rotate messages in main (it has nothing to do with the topic)
 
 #####[ptx_tagcheck](https://github.com/luadch/scripts/tree/master/zip) (multi3) (only for Luadch 2.15 and higher)
 - checks min/max slots and max hubs for specified reg prefix tags
