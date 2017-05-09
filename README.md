@@ -1,4 +1,4 @@
-#Additional Scripts for Luadch
+# Additional Scripts for Luadch
 
 ##### [bot_advanced_chat](https://github.com/luadch/scripts/tree/master/zip) (multi)
  - this script regs an advanced chat with chathistory
