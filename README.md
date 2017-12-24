@@ -24,9 +24,6 @@
 ##### [etc_clientblocker](https://github.com/luadch/scripts/tree/master/zip)
 - blocks clients
 
-##### [etc_descriptionchecker](https://github.com/luadch/scripts/tree/master/zip) (german)
-- this script checks the description when a user login for forbidden words
-
 ##### [etc_hubportier](https://github.com/luadch/scripts/tree/master/zip) (german)
 - this script sends a welcome / goodbye message to the user
 
