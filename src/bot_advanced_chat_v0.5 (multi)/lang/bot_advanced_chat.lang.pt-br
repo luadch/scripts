@@ -1,0 +1,125 @@
+return {
+
+help_title = "Bate-Papo Avançado",
+help_desc = "Bate-Papo com recursos avançados",
+
+msg_help_1 = "  [+!#]help \t | Lista de comandos disponíveis no bate-papo",
+msg_help_2 = "  [+!#]members \t | Lista de todos os membros",
+msg_help_3 = "  [+!#]history \t | Mostra as últimas postagens do bate-papo",
+msg_help_4 = "  [+!#]historyall \t | Mostra todas as postagens salvas do bate-papo",
+
+msg_help_5 = "  [+!#]add <nick> \t | Adicionar novo membro",
+msg_help_6 = "  [+!#]del <nick> \t | Remover um membro",
+msg_help_7 = "  [+!#]advancedchat help",
+msg_help_8 = "  [+!#]advancedchat add|del <nick>",
+msg_help_9 = "  [+!#]advancedchat members",
+msg_help_10 = "  [+!#]advancedchat history",
+msg_help_11 = "  [+!#]advancedchat historyall",
+
+ucmd_menu_ct1_del_1 = "Usuário",
+ucmd_menu_ct1_del_2 = "Mensagens",
+ucmd_menu_ct1_del_3 = "Bate-Papos",
+ucmd_menu_ct1_del_4 = "Bate-Papo Avançado",
+ucmd_menu_ct1_del_5 = "remover",
+
+ucmd_menu_ct1_help = { "Usuários", "Mensagens", "Bate-papos, "Bate-Papo Avançado", "mostrar ajuda " },
+ucmd_menu_ct1_members = { "Usuários", "Mensagens", "Bate-papos, "Bate-Papo Avançado", "mostrar todos membros" },
+ucmd_menu_ct1_history = { "Usuários", "Mensagens", "Bate-papos, "Bate-Papo Avançado", "mostrar histórico do bate-papo (últimas)" },
+ucmd_menu_ct1_historyall = { "Usuários", "Mensagens", "Bate-papos, "Bate-Papo Avançado", "mostrar histórico do bate-papo (todas salvas)" },
+
+ucmd_menu_ct2_add = { "Bate-papos, "Bate-Papo Avançado", "adicionar" },
+ucmd_menu_ct2_del = { "Bate-papos, "Bate-Papo Avançado", "remover" },
+
+msg_denied = "Você não tem permissão para usar este comando.",
+msg_denied_2 = "Você não tem permissão para usar este bate-papo!",
+msg_new_member = "O seguinte usuário foi adicionado como membro: ",
+msg_welcome = "Bem-vindo ",
+msg_already = "O seguinte usuário´ já é um membro: ",
+msg_isbot = "Usuário é um bot",
+msg_del = "O seguinte usuário não é mais um membro: ",
+msg_del_2 = "Você não é mais um membro deste bate-papo.",
+msg_nomember = "O seguinte usuário não é um membro: ",
+msg_intro = "\t\t\t\t   Os últimos %s posts do bate-papo:",
+msg_pm2ops_user = "A seguinte mensagem foi enviada para todos os membros deste Bate-Papo: ",
+
+msg_members = [[
+
+
+=== MEMBROS =========================
+
+%s
+
+========================= MEMBROS ===
+  ]],
+  
+msg_levels = [[
+
+=== NÍVEIS PERMITIDOS ==================
+
+%s
+================== NÍVEIS PERMITIDOS ===
+  ]],
+
+msg_history = [[
+
+
+========== CHATLOG ==============================================================================
+%s
+%s
+============================================================================== CHATLOG ==========
+  ]],
+
+msg_help_master = [[
+
+
+=== AJUDA MESTRE ==========================================
+
+Lista de todos os comandos no bate-papo:
+
+%s
+%s
+%s
+%s
+%s
+%s
+
+Lista de todos os comandos principais:
+
+%s
+%s
+%s
+%s
+%s
+
+========================================== AJUDA MESTRE ===
+  ]],
+
+msg_help_member = [[
+
+
+=== AJUDA MEMBRO ==========================================
+
+Lista de todos os comandos no bate-papo:
+
+%s
+%s
+%s
+%s
+
+========================================== AJUDA MEMBRO ===
+  ]],
+  
+msg_pm2ops_op = [[ 
+
+
+========== FUNÇÃO PM 2 OP ======================================================================
+
+Nova mensagem de um usuário não autorizado:
+
+Usuário: %s
+Msg:  %s
+                     
+====================================================================== FUNÇÃO PM 2 OP ==========
+  ]],
+
+}
