@@ -1,0 +1,9 @@
+return {
+
+    msg_too_many_slots = "Você tem muitos slots abertos. %s's são obrigados a ter um máximo de %s slots abertos. Você tem %s slots.",
+    msg_too_few_slots = "Você tem muito poucos slots abertos. %s's são obrigados a ter um mínimo de %s slots abertos. Você tem apenas %s slots.",
+    msg_too_many_hubs = "Você está em muitos hubs. %s's são obrigados a ter um máximo de %s conexões com hubs. Você está conectado a %s hubs.",
+
+    msg_ban = "%s foi expulso e banido por %s por %s minutos porque: %s",
+
+}
