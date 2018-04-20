@@ -1,0 +1,47 @@
+return {
+
+help_title = "Pedidos",
+help_usage = "[+!#]request show / [+!#]request showall / [+!#]request add <relname> / [+!#]request del <relname> / [+!#]request delall / [+!#]filled show / [+!#]filled add <relname>",
+help_desc = "adicionar lançamentos ao banco de dados de pedidos",
+
+msg_denied = "Você não tem permissão para usar este comando.",
+
+msg_etc_001 = "   |   por: ",
+msg_etc_002 = "   |   pedido por: ",
+msg_etc_003 = "   |   preenchido por: ",
+msg_etc_004 = "   |   excluído por: ",
+msg_etc_005 = "PEDIDO      ",
+msg_etc_006 = "PREENCHIDO       ",
+msg_etc_007 = "EXCLUÍDO      ",
+msg_etc_008 = "ID: ",
+msg_etc_009 = "lançamento pedido por:   ",
+msg_etc_010 = "lançamento pedido preenchido por:   ",
+
+msg_etc_101 = "o seguinte lançamento foi excluído:   ",
+msg_etc_102 = "todos lançamentos fora excluídos!",
+msg_etc_103 = "todos lançamentos com status de PEDIDO foram excluídos!",
+msg_etc_104 = "todos lançamentos com status de PREENCHIDO foram excluídos!",
+
+msg_etc_201 = "erro: lançamento não encontrado.",
+msg_etc_202 = "erro: não há lançamentos no banco de dados.",
+msg_etc_203 = "erro: entrada com espaços! espaços não são permitidos!",
+msg_etc_204 = "erro: pedido: parâmetro desconhecido [2]",
+msg_etc_205 = "erro: preenchido: parâmetro desconhecido [2]",
+msg_etc_206 = "erro: lançamento já adicionado como PEDIDO.",
+msg_etc_207 = "erro: lançamento já adicionado como PREENCHIDO.",
+msg_etc_208 = "erro: lançamento já adicionado como EXCLUÍDO.",
+
+ucmd_menu_request_add = { "pedidos", "adicionar", "adicionar um lançamento" },
+ucmd_menu_filled_add = { "pedidos", "adicionar", "adicionar um lançamento como preenchido" },
+ucmd_menu_request_show = { "pedidos", "mostrar", "mostrar todos pedidos" },
+ucmd_menu_filled_show = { "pedidos", "mostrar", "mostrar todos preenchidos" },
+ucmd_menu_del_show = { "pedidos", "mostrar", "mostrar todos excluídos" },
+ucmd_menu_request_showall = { "pedidos", "mostrar", "mostrar todos lançamentos" },
+ucmd_menu_del_request = { "pedidos", "excluir", "um lançamento" },
+ucmd_menu_del_requests_all_r = { "pedidos", "excluir", "todos lançamentos pedidos" },
+ucmd_menu_del_requests_all_f = { "pedidos", "excluir", "todos lançamentos preenchidos" },
+ucmd_menu_del_requests_all = { "pedidos", "excluir", "todos lançamentos" },
+
+ucmd_relname = "nome do lançamento",
+
+}
