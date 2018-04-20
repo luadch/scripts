@@ -1,0 +1,27 @@
+return {
+
+	help_title = "Lista_de_Desejos",
+	help_usage = "[+!#]wish [add|show|delete <number>]",
+	help_desc =  "Permite que você [ adicione um pedido | mostre todos pedidos | excluir pedido <número>].",
+	-- error msgs --
+	help_err = "Você não tem permissão para usar este comando.",
+	help_err_wrong_id = "\n\t\t Você inseriu um ou mais parâmetros errados, tente um destes: \n\n\t\t %s \n\t\t %s ",
+	noitem = "Nenhum pedido digitado",
+	nonumber = "Nenhum número digitado",
+	-- msgs --
+	addrequestmsg = "\"%s\" foi adicionado à lista de desejos",
+	showrequestmsg = "\nOs Pedidos: ",
+	deletemsg = "\"%s\" foi excluído da lista de desejos",
+    amountmsg = "[[DESEJOS]]--> %s itens foram adicionados à lista de desejos, vá checar por eles lá",
+
+
+	-- ucmd menu --
+	ucmd_menu_add = { "Geral", "Desejos", "adicionar" },
+	ucmd_menu_show = { "Geral", "Desejos", "mostrar" },
+	ucmd_menu_delete = { "Geral", "Desejos", "excluir" },
+	ucmd_what = "Digite seu pedido:",
+	ucmd_which = "Digite o número do pedido:",
+
+	by = "adicionado por",
+
+}
