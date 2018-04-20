@@ -1,0 +1,48 @@
+return {
+
+    help_title = "etc_NewPasswords.lua",
+    help_usage = "[+!#]newpw true|false",
+    help_desc = "Gere uma nova senha para o usuário no login",
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage = "Uso: [+!#]newpw true|false",
+    msg_disconnect = "Você foi desconectado por causa da nova senha. Adicione uma nova senha aos seus favs e faça o login novamente.",
+    msg_report = "O seguinte usuário recebeu uma nova senha gerada automaticamente e foi desconectada agora: %s",
+    msg_target = [[
+
+
+=== NOVA SENHA PARA VOCÊ =====================================
+
+     Olá %s, você tem uma nova senha, use-a para entrar agora!
+     Sua nova senha é:  %s
+
+     Você será desconectado agora.
+
+===================================== NOVA SENHA PARA VOCÊ ===
+  ]],
+
+    msg_users_true = [[
+
+
+=== NOVAS SENHAS =====================================
+
+Usuários com senhas alteradas:
+
+%s
+===================================== NOVAS SENHAS ===
+  ]],
+
+    msg_users_false = [[
+
+
+=== NOVAS SENHAS =====================================
+
+Usuários com senhas não alteradas:
+
+%s
+===================================== NOVAS SENHAS ===
+  ]],
+
+    ucmd_menu_ct1_1 = { "Hub", "etc", "Novas Senhas", "mostrar usuários com novas senhas" },
+    ucmd_menu_ct1_2 = { "Hub", "etc", "Novas Senhas", "mostrar usuários com senhas antigas" },
+
+}
