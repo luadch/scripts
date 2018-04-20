@@ -1,0 +1,20 @@
+return {
+
+msg_days = " dias, ",
+msg_hours = " horas, ",
+msg_minutes = " minutos, ",
+msg_seconds = " segundos",
+
+msg_line = "\n\t%s:\n\t%s\n",
+
+msg_out = [[
+
+
+=== Locutor de Eventos ====================================
+
+        Tempo restante até:
+%s
+==================================== Locutor de Eventos ===
+  ]],
+
+}
