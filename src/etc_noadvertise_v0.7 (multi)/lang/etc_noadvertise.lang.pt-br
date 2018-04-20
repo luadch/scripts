@@ -1,0 +1,61 @@
+return {
+
+    help_title = "Sem Propagandas",
+    help_usage = "[+!#]noad set checkMode|checkMain|ignoreBots|warnUser|sendToHubbot\nand:     [+!#]noad showf|showa|addf|adda|delf|dela <string>",
+    help_desc = "checa principal/pm por propagandas",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage_1 = "Uso: [+!#]noad set checkMode|checkMain|ignoreBots|warnUser|sendToHubbot",
+    msg_usage_2 = "Uso: [+!#]noad showf|showa|addf|adda|delf|dela <string>",
+    msg_prefix = "Sem Propagandas  |  ",
+    msg_main = " escreve no principal:  ",
+    msg_pm_1 = " escreve para:  ",
+    msg_pm_2 = "  |  msg:  ",
+
+    msg_checkmode_1 = "Sem Propagadas  |  definir o Modo de verificação: desligado",
+    msg_checkmode_2 = "Sem Propagadas  |  definir o Modo de verificação: ligado",
+    msg_checkmain_1 = "Sem Propagadas  |  definir verificação do Principal: desligado",
+    msg_checkmain_2 = "Sem Propagadas  |  definir verificação do Principal: ligado",
+    msg_ignorebots_1 = "Sem Propagadas  |  definir verificação dos Bots: desligado",
+    msg_ignorebots_2 = "Sem Propagadas  |  definir verificação dos Bots: ligado",
+    msg_warnuser_1 = "Sem Propagadas  |  definir alerta ao Usuário: desligado",
+    msg_warnuser_2 = "Sem Propagadas  |  definir alerta ao Usuário: ligado",
+    msg_sendreport_1 = "Sem Propagadas  |  definir relatório: OpChat",
+    msg_sendreport_2 = "Sem Propagadas  |  definir relatório: HubBot",
+    msg_show_forbidden = "Sem Propagadas  |  termos proibidas:\n\n",
+    msg_add_forbidden_1 = "Sem Propagadas  |  termos proibido já existe: ",
+    msg_add_forbidden_2 = "Sem Propagadas  |  termos proibidos adicionados: ",
+    msg_del_forbidden_1 = "Sem Propagadas  |  termos proibidos removidos: ",
+    msg_del_forbidden_2 = "Sem Propagadas  |  termos proibidos não encontrados: ",
+    msg_show_allowed = "Sem Propagadas  |  termos permitidos:\n\n",
+    msg_add_allowed_1 = "Sem Propagadas  |  termos permitidos que já existem: ",
+    msg_add_allowed_2 = "Sem Propagadas  |  termos permitidos adicionados: ",
+    msg_del_allowed_1 = "Sem Propagadas  |  termos permitidos removidos: ",
+    msg_del_allowed_2 = "Sem Propagadas  |  termos permitidos não encontrados: ",
+
+    ucmd_popup = "Nota: sem sensibilidade a maiúsculas e espaços em branco necessários",
+
+    ucmd_menu_set_checkmode = { "Sem Propagadas", "definir", "Modo de verificação", "ligado\\desligado" },
+    ucmd_menu_set_checkmain = { "Sem Propagadas", "definir", "verificação do Principal", "ligado\\desligado" },
+    ucmd_menu_set_ignorebots = { "Sem Propagadas", "definir", "verificação dos Bots", "ligado\\desligado" },
+    ucmd_menu_set_warnuser = { "Sem Propagadas", "definir", "alerta ao Usuário", "ligado\\desligado" },
+    ucmd_menu_set_sendtohubbot = { "Sem Propagadas", "definir", "enviar relatório para", "Hubbot\\OpChat" },
+    ucmd_menu_show_forbidden = { "Sem Propagadas", "mostrar", "proibido" },
+    ucmd_menu_show_allowed = { "Sem Propagadas", "mostrar", "permitido" },
+    ucmd_menu_add_forbidden = { "Sem Propagadas", "adicionar", "proibido" },
+    ucmd_menu_add_allowed = { "Sem Propagadas", "adicionar", "permitido" },
+    ucmd_menu_del_forbidden = { "Sem Propagadas", "del", "proibido" },
+    ucmd_menu_del_allowed = { "Sem Propagadas", "del", "permitido" },
+
+    msg_warn = [[ 
+
+
+                        ========== DETECÇÃO DE ANÚNCIOS ========================================
+
+                                                          Aviso: publicidade não é permitida neste hub!
+
+                        ======================================== DETECÇÃO DE ANÚNCIOS ==========
+
+  ]],
+
+}
