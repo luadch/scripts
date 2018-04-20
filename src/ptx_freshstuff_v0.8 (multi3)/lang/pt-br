@@ -1,0 +1,144 @@
+return {
+
+own_botdesc_rel = "Lançamentos: ",
+own_botdesc_cat = "Categorias: ",
+own_botdesc_sep = "  |  ",
+
+ucmd_menu = "Lançamentos",
+ucmd_add = "adicionar",
+ucmd_show = "mostrar",
+ucmd_show_newest_01 = "Mostrar ",
+ucmd_show_newest_02 = " lançamentos mais recentes",
+ucmd_show_top_releaser = "Mostrar os MELHORES Lançadores",
+ucmd_search_release = "Buscar um Lançamento",
+ucmd_delete_release = "Excluir um Lançamento",
+ucmd_reload_db = "Recarregar Banco de Dados",
+ucmd_prune_01 = "Excluir antigos Lançamentos",
+ucmd_prune_02 = "Max. de Idade em Dias (vazio=padrão de ",
+ucmd_help = "Mostrar Ajuda",
+ucmd_optout = "desligado",
+ucmd_optin = "Ligado",
+
+msg_error_01 = "O arquivo de categoria está corrompido ou ausente.",
+msg_error_02 = "O arquivo de lançamentos está corrompido ou ausente.",
+msg_error_03 = "Comando incompleto.",
+msg_error_04 = "Lançamento não encontrado.",
+
+msg_denied = "Você não tem permissão para usar este comando.",
+msg_disabled = "Este comando está desativado.",
+
+msg_empty_db = "Não há lançamentos no banco de dados.",
+msg_missing_cat = "Nenhum de tal tipo.",
+
+msg_add_crap_01 = "Caracteres de dólar ($) em nomes de lançamento não permitidos.",
+msg_add_crap_02 = "Há outro lançamento com este nome na categoria: ",
+msg_add_crap_03 = " foi adicionado como: ",
+msg_add_crap_04 = " adicionado à categoria [",
+msg_add_crap_05 = "] o seguinte Lançamento: ",
+msg_add_crap_06 = "Categoria Desconhecida: ",
+msg_add_crap_07 = "Eu não sei o que você quer dizer :)",
+
+msg_del_crap_01 = " foi apagado.",
+msg_del_crap_02 = "Lançamento com o número [",
+msg_del_crap_03 = "] foi excluído do banco de dados.",
+msg_del_crap_04 = "Quantidade de lançamentos excluídos: ",
+msg_del_crap_05 = "   |   Frequentou o tempo em segundos: ",
+
+msg_reload_rel_01 = "Lançamentos recarregados, tempo atendido em segundos: ",
+msg_search_rel_01 = [[
+
+
+======================================================================================
+
+Procurando por: %s
+
+Resultados encontrados: %s  |  Lista dos primeiros %s Lançamentos:
+
+%s
+======================================================================================
+  ]],
+
+msg_search_rel_02 = "Seu termo de pesquisa não foi encontrado no banco de dados.",
+
+msg_showrel_01 = "Nenhuma Lançamento encontrado no banco de dados.",
+msg_showrel_02 = "por: ",
+msg_showrel_03 = "No: ",
+msg_showrel_04 = "\t|   ",
+msg_showrel_05 = "   |   ",
+msg_showrel_06 = "¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯",
+msg_showrel_07 = [[
+
+
+===========================================================================================================================================
+                                                                                                                OS  %s  LANÇAMENTOS MAIS RECENTES
+%s
+===========================================================================================================================================
+  ]],
+
+msg_show_cat_01 = [[
+
+
+===========================================================================================================================================
+                                                                                                       MAIS NOVOS %s LANÇAMENTOS
+
+Nenhuma versão desta categoria foi encontrada.
+
+===========================================================================================================================================
+  ]],
+
+msg_show_cat_02 = [[
+
+
+===========================================================================================================================================
+                                                                                                       OS   %s  NOVOS  %s  LANÇAMENTOS
+
+%s
+===========================================================================================================================================
+  ]],
+
+msg_prune = [[
+
+
+=============================================================================
+Lançamento-Exclusão-Processo iniciado, todos os lançamentos com mais de  %s  dias foram excluídos do banco de dados.
+Resultado:  %s  lançamentos pesquisados ​​e  %s  excluídos.
+=============================================================================
+  ]],
+
+msg_top_adders = [[
+
+
+=========================================
+
+Os Melhores  %s  Lançadores são:
+
+%s
+=========================================
+  ]],
+
+msg_help = [[
+
+
+=============================================================================
+
+    [+!#]addrel <CATEGORY> <RELEASENAME>
+    [+!#]releases <CATEGORY>
+    [+!#]delrel <RELEASE-ID>
+    [+!#]reloadrel
+    [+!#]searchrel <SEARCH-STRING>
+    [+!#]prunerel [<MAX-RELEASE-AGE>]
+    [+!#]topadders
+    [+!#]relhelp
+    [+!#]announcerel <REAL-DUMP-NICKNAME> <CATEGORY> <RELEASENAME>
+    [+!#]reldesligado
+    [+!#]relon
+
+=============================================================================
+  ]],
+
+msg_optout = "Lançamentos fora desligados",
+msg_already_optout = "Você já desligou os lançamentos",
+msg_optin = "Lançamentos foram ligados",
+msg_already_optin = "Você já ligou os lançamentos",
+
+}
