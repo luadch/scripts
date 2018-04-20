@@ -1,0 +1,27 @@
+return{
+
+    help_title = "Quadro-Negro",
+    help_usage = "[+!#]blackboard [addinfo <userSID> <info> |showusers all|showinfo <userSID>| deleteinfo <id>]",
+    help_desc = "Permite que você [ adicionar informações sobre o usuário | mostra todos os usuários com infos adicionados | mostra todas as informações de um usuário | permite que você exclua uma informação].",
+
+    -- error msgs --
+    help_err = "Você não tem permissão para usar este comando.",
+    help_err_wrong_id = "\n\t\t Você inseriu um ou mais parâmetros errados, tente um destes: \n\n\t\t %s \n\t\t %s ",
+
+    -- msgs --
+    addinfomsg = "%s foi adicionado ao quadro-negro, razão: %s",
+    showusersmsg = "\nTodos os usuários no quadro-negro: ",
+    showinfomsg = "\n Todas as informações do usuário %s: ",
+    noinfos = "Nenhum info disponível.",
+    nonenty = "Nenhuma entrada com este ID.",
+    deleteinfomsg = "Info: %s do Usuário: %s foi excluído do quadro-negro",
+
+    -- ucmd menu --
+    ucmd_menu_addinfo = { "Hub", "Quadro-Negro", "adicionar info" },
+    ucmd_menu_showusers = { "Hub", "Quadro-Negro", "mostrar usuários" },
+    ucmd_menu_showinfo = { "Hub", "Quadro-Negro", "mostrar infos" },
+    ucmd_menu_deleteinfo = { "Hub", "Quadro-Negro", "excluir info" },
+    
+    ucmd_what = "Digite suas informações: ",
+    ucmd_which_info = "Digite o número da informação: ",
+}
