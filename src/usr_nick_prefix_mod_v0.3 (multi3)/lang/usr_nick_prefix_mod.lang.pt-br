@@ -1,0 +1,23 @@
+return {
+
+    help_title = "usr_nick_prefix_mod.lua",
+    help_usage = "[+!#]nickprefix add <NICK> <PREFIX>  /  [+!#]nickprefix del <NICK>",
+    help_desc = "Este script adiciona um prefixo ao apelido de um usuário",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_god = "Você não tem permissão para adicionar/alterar o prefixo do apelido desse usuário.",
+    msg_isbot = "Usuário é um bot.",
+    msg_notonline = "Usuário está offline.",
+    msg_notfound = "Nenhum prefixo encontrado.",
+    msg_forbidden = "O prefixo inclui caracteres proibidos ou espaços em branco.",
+    msg_usage = "Uso: [+!#]nickprefix add <NICK> <PREFIX>  /  [+!#]nickprefix del <NICK>",
+
+    msg_prefix_add = "%s  adicionou o prefixo do apelido no usuário: %s  prefixo: %s",
+    msg_prefix_change = "%s  mudou o prefixo do apelido no usuário: %s  novo prefixo: %s",
+    msg_prefix_remove = "%s  removeu o prefixo do apelido no usuário: %s",
+
+    ucmd_menu_ct2_1 = { ""Prefixo do Apelido", "adicionar//alterar" },
+    ucmd_menu_ct2_2 = { ""Prefixo do Apelido", "remover" },
+    ucmd_prefix = "Novo prefixo de apelido:",
+
+}
