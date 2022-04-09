@@ -7,6 +7,9 @@
 ##### [cmd_mainclear](https://github.com/luadch/scripts/tree/master/zip) (german)
 - sends a few empty lines to mainchat and seems to clear it
 
+##### [cmd_pm2offliners](https://github.com/luadch/scripts/tree/master/zip) (multi)
+- sends a PM to an offline user
+
 ##### [etc_EventAnnouncer](https://github.com/luadch/scripts/tree/master/zip) (multi)
 - announces events and their remaining time to a predefined rotation time
 
@@ -20,6 +23,12 @@
 
 ##### [etc_blackboard](https://github.com/luadch/scripts/tree/master/zip) (multi)
 - allows you to add info about users
+
+##### [etc_ccpmblocker2.0](https://github.com/luadch/scripts/tree/master/zip) (english)
+- controls the CCPM (Client to Client Private Message)
+
+##### [etc_client_su_check](https://github.com/luadch/scripts/tree/master/zip) (english)
+- checks the "SU" string of the clients "INF"
 
 ##### [etc_clientblocker](https://github.com/luadch/scripts/tree/master/zip)
 - blocks clients
