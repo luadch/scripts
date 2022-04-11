@@ -1,0 +1,146 @@
+﻿return {
+
+own_botdesc_rel = "Releases: ",
+own_botdesc_cat = "Categories: ",
+own_botdesc_sep = "  |  ",
+
+ucmd_menu = "Releases",
+ucmd_add = "add",
+ucmd_show = "show",
+ucmd_show_newest_01 = "Show ",
+ucmd_show_newest_02 = " newest releases",
+ucmd_show_top_releaser = "Show Top Releasers",
+ucmd_search_release = "Search a Release",
+ucmd_delete_release = "Delete a Release",
+ucmd_reload_db = "Reload Database",
+ucmd_prune_01 = "Delete older Releases",
+ucmd_prune_02 = "Max. Age in Days (empty=defaults to ",
+ucmd_help = "Show Help",
+ucmd_optout = "Off",
+ucmd_optin = "On",
+
+msg_error_01 = "The category file is corrupt or missing.",
+msg_error_02 = "The releases file is corrupt or missing.",
+msg_error_03 = "Command incomplete.",
+msg_error_04 = "Release not found.",
+
+msg_denied = "You are not allowed to use this command.",
+msg_disabled = "This command is disabled.",
+
+msg_empty_db = "There are no Releases in the database.",
+msg_missing_cat = "No such type.",
+
+msg_add_crap_01 = "Dollar chars ($) are not allowed in release names.",
+msg_add_crap_02 = "The release already exists in the category: ",
+msg_add_crap_03 = " was added as: ",
+msg_add_crap_04 = " added to the category [",
+msg_add_crap_05 = "] the following Release: ",
+msg_add_crap_06 = "Unknown category: ",
+msg_add_crap_07 = "Unknown command or command not working.",
+
+msg_del_crap_01 = " was deleted.",
+msg_del_crap_02 = "Release with number [",
+msg_del_crap_03 = "] was deleted from database.",
+msg_del_crap_04 = "Amount of deleted releases: ",
+msg_del_crap_05 = "   |   Attended time in seconds: ",
+
+msg_reload_rel_01 = "Releases reloaded, attended time in seconds: ",
+msg_search_rel_01 = [[
+
+
+======================================================================================
+
+Searching for: %s
+
+Results found: %s  |  List of the first %s Releases:
+
+%s
+======================================================================================
+  ]],
+
+msg_search_rel_02 = "Your search string was not found in the database.",
+
+msg_showrel_01 = "No Releases in database found.",
+msg_showrel_02 = "by: ",
+msg_showrel_03 = "Nr: ",
+msg_showrel_04 = "\t|   ",
+msg_showrel_05 = "   |   ",
+msg_showrel_06 = "¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯",
+msg_showrel_07 = [[
+
+
+===========================================================================================================================================
+                                                                                                                THE  %s  NEWEST RELEASES
+%s
+===========================================================================================================================================
+  ]],
+
+msg_show_cat_01 = [[
+
+
+===========================================================================================================================================
+                                                                                                       THE  NEWEST  %s  RELEASES
+
+No Releases from this category found.
+
+===========================================================================================================================================
+  ]],
+
+msg_show_cat_02 = [[
+
+
+===========================================================================================================================================
+                                                                                                       THE   %s  NEWEST  %s  RELEASES
+
+%s
+===========================================================================================================================================
+  ]],
+
+msg_prune = [[
+
+
+=============================================================================
+Release-Delete-Process started, all Releases older than  %s  days will be deleted from database.
+Result:  %s  releases searched and  %s  deleted.
+=============================================================================
+  ]],
+
+msg_top_adders = [[
+
+
+=========================================
+
+The Top  %s  Releasers are:
+
+%s
+=========================================
+  ]],
+
+msg_usage = [[
+
+
+=============================================================================
+
+    [+!#]addrel <CATEGORY> <RELEASENAME>
+    [+!#]releases <CATEGORY>
+    [+!#]delrel <RELEASE-ID>
+    [+!#]reloadrel
+    [+!#]searchrel <SEARCH-STRING>
+    [+!#]prunerel [<MAX-RELEASE-AGE>]
+    [+!#]topadders
+    [+!#]relhelp
+    [+!#]announcerel <REAL-DUMP-NICKNAME> <CATEGORY> <RELEASENAME>
+    [+!#]reloff
+    [+!#]relon
+
+=============================================================================
+  ]],
+
+msg_desc = "Multifunctional release bot",
+
+msg_optout = "Releases are turned off",
+msg_already_optout = "You have already turned off releases",
+msg_optin = "Releases are turned on",
+msg_already_optin = "You have already turned on releases",
+
+}

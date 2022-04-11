@@ -5,7 +5,7 @@
         Description: sends a PM to an offline User
 
         v0.8: by blastbeat
-            - added new feature: if offline pm was received by target, the source of the message gets a offline notification; it will be delivered if source is online
+            - added new feature: if offline pm was received by target, the source of the message gets an offline notification; it will be delivered if source is online
 
         v0.7: by blastbeat
             - fixed error reported by sopor; if we use a delay here, we MUST CHECK whether upvalues did change in the meantime.
@@ -16,7 +16,7 @@
         v0.6:
             - removed dateparser() function
             - removed deprecated table.maxn() lua function
-            - send a confirmation msg to the sender if he's online  / requested by WitchHunter
+            - send a confirmation msg to the sender if he's online / requested by WitchHunter
             - send date and message too  / requested by Sopor
 
         v0.5:
