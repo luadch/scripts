@@ -485,8 +485,8 @@ hub.setlistener( "onStart", { },
     ucmd.add( { ucmd_menu,"TV","1080p",ucmd_add }, cmd_Add, { "TV_1080p", "%[line:Name:]" }, { "CT1" }, Add )
     ucmd.add( { ucmd_menu,"TV","1080p",ucmd_show }, cmd_Show, { "TV_1080p"}, { "CT1" }, Show )
 
-    ucmd.add( { ucmd_menu,"TV","2160k",ucmd_add }, cmd_Add, { "TV_2160k", "%[line:Name:]" }, { "CT1" }, Add )
-    ucmd.add( { ucmd_menu,"TV","2160k",ucmd_show }, cmd_Show, { "TV_2160k"}, { "CT1" }, Show )
+    ucmd.add( { ucmd_menu,"TV","2160p",ucmd_add }, cmd_Add, { "TV_2160p", "%[line:Name:]" }, { "CT1" }, Add )
+    ucmd.add( { ucmd_menu,"TV","2160p",ucmd_show }, cmd_Show, { "TV_2160p"}, { "CT1" }, Show )
 
     ucmd.add( { ucmd_menu,"TV","COMPLETE.BLURAY",ucmd_add }, cmd_Add, { "TV_COMPLETE.BLURAY", "%[line:Name:]" }, { "CT1" }, Add )
     ucmd.add( { ucmd_menu,"TV","COMPLETE.BLURAY",ucmd_show }, cmd_Show, { "TV_COMPLETE.BLURAY"}, { "CT1" }, Show )
