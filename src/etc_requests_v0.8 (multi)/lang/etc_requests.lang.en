@@ -1,0 +1,144 @@
+﻿return {
+
+help_title = "etc_requests.lua",
+help_desc  = "a script to request / fill releases",
+
+msg_help_01 = "[+!#]show",
+msg_help_02 = "[+!#]add <release>",
+msg_help_03 = "[+!#]fill <release>",
+msg_help_04 = "[+!#]del <release>",
+msg_help_05 = "[+!#]delold <max age in days>",
+
+msg_help_06 = "[+!#]help",
+msg_help_07 = "[+!#]history",
+msg_help_08 = "[+!#]historyall",
+msg_help_09 = "[+!#]historyclear",
+
+msg_help_10 = "[+!#]request show",
+msg_help_11 = "[+!#]request add <release>",
+msg_help_12 = "[+!#]request fill <release>",
+msg_help_13 = "[+!#]request del <release>",
+msg_help_14 = "[+!#]request delold <max age in days>",
+
+msg_help_15 = "[+!#]request help",
+msg_help_16 = "[+!#]request history",
+msg_help_17 = "[+!#]request historyall",
+msg_help_18 = "[+!#]request historyclear",
+
+ucmd_relname = "Releasename",
+ucmd_age     = "max. age in days",
+ucmd_add     = { "Requests", "add", "request" },
+ucmd_fill    = { "Requests", "add", "filled" },
+ucmd_del     = { "Requests", "delete", "delete a release" },
+ucmd_del_old = { "Requests", "delete", "delete old releases" },
+ucmd_show    = { "Requests", "show" },
+
+ucmd_menu_ct1_help         = { "Requests", "chat", "show help" },
+ucmd_menu_ct1_history      = { "Requests", "chat", "show chat history (latest)" },
+ucmd_menu_ct1_historyall   = { "Requests", "chat", "show chat history (all saved)" },
+ucmd_menu_ct1_historyclear = { "Requests", "chat", "clear history" },
+
+msg_denied           = "[ REQUESTS ]--> You are not allowed to use this command.",
+msg_spaces           = "[ REQUESTS ]--> Spaces in the release names are not allowed.",
+msg_already_exists   = "[ REQUESTS ]--> The following release already exists: %s",
+msg_already_filled   = "[ REQUESTS ]--> The following release already filled: %s",
+msg_not_found        = "[ REQUESTS ]--> The following release was not found: %s",
+msg_added_by         = "[ REQUESTS ]--> Added by %s: %s",
+msg_filled_by        = "[ REQUESTS ]--> Filled by %s: %s",
+msg_deleted_by       = "[ REQUESTS ]--> Deleted by %s: %s",
+msg_old_deleted_by   = "[ REQUESTS ]--> All releases older than %s days deleted by: %s  |  deleted releases: %s",
+msg_old_deleted_auto = "[ REQUESTS ]--> Auto deletion started. All releases older than %s days was deleted  |  deleted releases: %s",
+msg_no_old_rel       = "[ REQUESTS ]--> There is no release older than %s days.",
+msg_empty_db         = "[ REQUESTS ]--> No request found.",
+msg_denied_2         = "[ REQUESTS ]--> You are not allowed to use this chat.",
+msg_clear            = "[ REQUESTS ]--> Chat history was cleared.",
+
+msg_desc_request = "Requests: ",
+msg_desc_filled  = " | Filled: ",
+msg_by           = "    [ by ]--> ",
+msg_intro        = "\t\t\t\t   The last %s posts from chat:",
+
+msg_requests = [[
+
+
+=== REQUESTS ==================================================================================================================
+
+    [ FILLED ]
+%s
+    [ REQUESTS ]
+%s
+================================================================================================================== REQUESTS ===
+   ]],
+
+msg_history = [[
+
+
+=== CHATLOG =====================================================================================
+%s
+%s
+===================================================================================== CHATLOG ===
+  ]],
+
+msg_chat_help = [[
+
+
+=== REQUESTS HELP ==========================================
+
+            List of all in-chat commands:
+
+                    %s
+                    %s
+                    %s
+
+                    %s
+                    %s
+                    %s
+
+            List of all main commands:
+
+                    %s
+                    %s
+                    %s
+
+                    %s
+                    %s
+                    %s
+
+========================================== REQUESTS HELP ===
+  ]],
+
+msg_chat_help_op = [[
+
+
+=== REQUESTS HELP ==========================================
+
+            List of all in-chat commands:
+
+                    %s
+                    %s
+                    %s
+                    %s
+                    %s
+
+                    %s
+                    %s
+                    %s
+                    %s
+
+            List of all main commands:
+
+                    %s
+                    %s
+                    %s
+                    %s
+                    %s
+
+                    %s
+                    %s
+                    %s
+                    %s
+
+========================================== REQUESTS HELP ===
+  ]],
+
+}
